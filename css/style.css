@@ -1,0 +1,525 @@
+body{
+    background-color: #f7f7f7;
+}
+
+
+li{
+    padding-right: 100px;
+    margin-bottom: -10px;
+    padding-top: -20px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.info-box {
+    flex: 1;
+    margin-right: 30px; 
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    padding-right: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.info-box:last-child {
+    margin-right: 0; 
+}
+
+.info-box:hover {
+    transform: scale(1.05); 
+}
+
+.info-box i {
+    margin-right: 10px;
+}
+
+.info-text h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    color:#1a4600;
+}
+
+.info-text p {
+    font-size: 14px;
+    width: 240px;
+    font-style: italic;
+    padding-left: 10px;
+    color: #126d00;
+}
+
+
+.yellow {
+    color: #126d00;
+}
+
+.info-box img {
+    margin-top: -15px; 
+    
+}
+
+
+.cart-icon {
+    position: relative;
+    padding-left: 30px;
+}
+
+.cart-counter {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #126d00;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 500px; 
+    border-bottom: 1px solid black; 
+}
+
+.search-box input {
+    flex: 1;
+    border: none;
+    font-style: italic; 
+    color: black; 
+}
+
+.search-box button {
+    border: none;
+    background: transparent;
+    margin-left: -40px; 
+}
+
+
+
+.newsletter {
+    background-color:#78a33f; 
+    
+    
+    max-width: 100%; 
+    margin: 0 auto; 
+    text-align: center;
+    padding-bottom: 30px; 
+  }
+  
+  .newsletter h2 {
+    color: white; 
+    padding-top: 30px;
+  }
+  
+  .subscribe-form {
+    margin-top: 20px; 
+  }
+  
+  .subscribe-form p {
+    color: #ffffff; 
+    margin-bottom: 10px; 
+  }
+  
+  .subscribe-form i {
+    margin-right: 5px; 
+  }
+  
+  .subscribe-form form {
+    display: flex; 
+    justify-content: center; 
+  }
+  
+  .subscribe-form input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .subscribe-form button {
+    background-color: #ffffff; 
+    color: rgb(0, 121, 6); 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px; 
+  }
+  
+  .subscribe-form button:hover {
+    background-color: #1a4600;   
+}
+  
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coluna {
+    width: 25%;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.coluna h3 {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.coluna ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.coluna ul li {
+    margin-bottom: 5px;
+}
+
+.coluna ul li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.coluna ul li a:hover {
+    color: #000;
+}
+
+.redes-sociais {
+    padding: 0;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes-sociais li a {
+    color: #126d00; 
+    font-size: 24px;
+}
+
+.direitos-autorais {
+    text-align: center;
+    margin-top: 20px; 
+    color: #000000; 
+    font-size: 18px; 
+}
+
+.text {
+    flex: 2;
+    padding-left: 20px;
+    text-align: justify;
+    
+}
+
+.text h2 {
+    margin-top: 0;
+    text-align: right;
+}
+
+#iniciativas{
+    padding-top: 100px;
+}
+
+#introducao{
+    padding-top: 100px;
+}
+
+#colabore{
+    padding-top: 100px;
+}
+
+#recursos{
+    padding-top: 100px;
+}
+
+.info-container{
+    padding-top: 30px;
+}
+
+
+
+.ong-cards {
+    padding: 40px 0;
+    background-color: #f8f9fa;
+}
+
+.ong-cards .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.ong-cards .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ong-cards .card-img-top {
+    border-bottom: 4px solid #28a745; 
+    border-radius: 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ong-cards .card-body {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.ong-cards .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.ong-cards .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.ong-cards .btn-primary {
+    background-color: #28a745;
+    border-color: #28a745;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.ong-cards .btn-primary:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+@media (max-width: 768px) {
+    .ong-cards .card-img-top {
+        height: 150px;
+    }
+}
+
+.ong-cards .btn-primary a {
+    color: white;
+    text-decoration: none;
+}
+
+#mapa-informativo header h1{
+    text-align: center;
+    padding-top: 100px;
+}
+
+  .container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  svg{
+    width: 120%;
+    padding-right: 100px ;
+    
+  }
+  .norte {
+    fill: #63ab3f;
+  }
+  .nordeste {
+    fill: #f0b541;
+  }
+  .centro-oeste {
+    fill: #ffae70;
+  }
+  .sudeste {
+    fill: #4fa4b8;
+  }
+  .sul {
+    fill: #686f99;
+  }
+  path {
+    fill: #1da1f2;
+    stroke: white;
+    stroke-width: 1px;
+  }
+  path:hover {
+    fill: purple;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 3px;
+    transition: fill 0.4s;
+  }
+  .tooltip {
+    pointer-events: none;
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    background: white;
+    padding: 10px 15px;
+    z-index: 5;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 auto;
+    color: #21669e;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    display: none;
+  }
+  .tooltip.active {
+    display: block;
+  }
+  .tooltip:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    width: 0;
+    height: 0;
+    margin-left: -10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
+  }
+  
+  .logo{
+    margin-top: -90px;
+    margin-bottom: -90px
+};
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    width: 300px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+tr:hover {
+    background-color: #ddd;
+}
+.rank {
+    text-align: center;
+    font-weight: bold;
+    color: #4CAF50;
+}
+.more-info {
+    display: none;
+}
+.more-info.show {
+    display: table-row;
+}
+.toggle-btn {
+    color: #4CAF50;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 0.9em;
+    background: none;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1a4600
+}
+
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://static.vecteezy.com/ti/vetor-gratis/p3/2714102-prado-natureza-paisagem-na-primavera-ilustracao-natureza-cena-com-ceu-desenho-fundo-parque-ao-ar-livre-com-vista-natural-vetor.jpg') no-repeat center center ;
+    background-size: cover;
+    padding: 20px;
+}
+
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.contact-card h2 {
+    margin-top: 0;
+    color: #1a4600;
+}
+
+.contact-card p {
+    color: #555;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.submit-btn:hover {
+    background-color: #004d40;
+}
+
+h6{
+    font-size: small;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
